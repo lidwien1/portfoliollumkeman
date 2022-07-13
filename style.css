@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+
+body {
+    margin: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.bg-beige {
+    background: rgba(240, 221, 188, 0.35);
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+hr.solid {
+  border-top: 1px solid #3A4257;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+}
+
+/**** TEXT ****/
+
+h1, h2, h4, a, p {
+    font-family: Montserrat;
+    font-weight: 200;
+}
+
+a {
+    font-family: Montserrat;
+}
+
+li {
+    font-family: Montserrat;
+    font-weight: 200;
+}
+
+button:link {
+    text-decoration: none;
+}
+
+.breadcrumps {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumps-text {
+    padding-left: 95px;
+}
+
+/**** EINDE TEXT ****/
+
+
+/**** NAVIGATIE ****/
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50vw;
+    padding-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: Montserrat;
+    display: flex;
+    color: #3A4257;
+}
+
+/**** EINDE NAVIGATIE ****/
+
+/**** HEADER ****/
+
+.container-header {
+    display: flex;
+}
+.photo {
+    width: 50vw;
+    margin-top: -100px;
+    display: block;
+}
+
+.text-header {
+     padding-bottom: 50vh;
+    font-family: sans-serif; 
+}
+
+.text-header {
+    color: #3A4257;
+}
+
+.text-header h1 {
+    padding-left: 10px;
+    position: relative;
+    font-size: 60px;
+}
+
+.text-header h4 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.text-header p {
+    padding: 20px;
+    background-color: #F0DDBC;
+    margin: 70px;
+    width: 500px;
+}
+
+.buttons-header {
+    margin-left: 280px;
+   color: #F0DDBC;
+    width: 150px;
+    height: 50px;
+    background-color: #3A4257;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    text-decoration: none;
+
+}
+
+/**** EINDE HEADER ****/
+
+
+
+/**** BEGIN CASES ****/
+
+.cases {
+    margin: 0;
+    padding: 0;
+}
+.cases ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-left: 30px;
+    background-color: #3A4257;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.cases a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color:  #F0DDBC;
+}
+.cases li:first-child{
+    flex-grow: 1;
+    font-size: 1.5em;
+    margin-left: 50px;
+}
+
+    .container-1 {
+        display: flex;
+        width: 100vw;
+        padding-bottom: 0px;
+    }
+
+    .photo-case1 {
+       width: 470px;
+        height: 245px;
+        padding: 50px;
+        padding-bottom: 20px;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 30px;
+    }
+
+    .photo-reverse {
+        width: 470px;
+        height: 380px;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+
+.photo-case3 {
+    height: 300px;
+    padding-left: 50px;
+     padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+    .container-3 {
+        display: flex;
+        width: 100vw;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
+.informatie {
+    margin-left: 200px;
+    margin-top: 45px;
+}
+
+.informatie-case2 {
+    margin-right: 320px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+.informatie h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.informatie-case2 h4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+    .button-case {
+       color: #F0DDBC;
+        width: 150px;
+        height: 50px;
+        background-color: #3A4257;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-family: Montserrat;
+         text-decoration: none;
+    }
+
+/**** EINDE CASES ****/
+
+
+/**** BEGIN CV ****/
+
+.cv {
+    padding: 300px;
+    padding-top: 30px;
+    width: 720px;
+    height: 1000px;
+}
+
+.header {
+    padding: 20px;
+    padding-left: 200px;
+    padding-bottom: 0;
+}
+
+/**** EINDE CV ****/
+
+
+/**** WEBSITE UCENTRI ****/
+
+.text-case1 {
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flowchart {
+    padding-left: 200px;
+    width: 1000px;
+}
+
+.text-whatsapp {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.photo-whatsapp {
+    width: 500px;
+    padding-right: 165px;
+    padding-top: 30px;
+}
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+/**** EINDE WEBSITE UCENTRI ****/
+
+
+/**** PLATFORM UCENTRI ****/
+
+.overzicht-communicatie {
+    padding-left: 200px;
+}
+
+.img-proposal {
+    width: 250px;
+}
+
+.img-project {
+    width: 250px;
+}
+
+/**** EINDE PLATFORM UCENTRI ****/
+
+/**** KOOP BEWUST ****/
+
+.koopbewust {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.koopbewust p {
+    padding-right: 10px;!
+}
+
+.intro {
+    display: flex;
+    margin-right: 40px;
+}
+
+.text-case2 {
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+.koop-bewust {
+    width: 150px;
+    padding-right: 10px;
+}
+
+.schermen {
+    padding-left: 200px;
+}
+
+/**** EINDE KOOP BEWUST ****/
+
+
